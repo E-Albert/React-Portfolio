@@ -9,11 +9,23 @@ body {
 
 .sidebar {
     width: 25%;
-    background-color: blue;
+    background-color: #476b6b;
+    background-image: url('/src/assets/img/darkmetalbackground.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.sidebar img {
+    width: 75%;
+    height: 40%;  
 }
 
 .display {
     width: 75%;
-    background-color: red;
+    background-color: #4e4e4e;
 }
 
