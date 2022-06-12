@@ -15,7 +15,6 @@ const Sidebar = () => {
                     <SocialIcon url="https://github.com/E-Albert" bgColor="green"></SocialIcon>
                     <SocialIcon url="https://www.linkedin.com/in/emerson-albert-402922224"></SocialIcon>
                     <SocialIcon url="https://www.discordapp.com/users/ThisMightBeEmerson#7415"></SocialIcon>
-
                 </div>
             </div>
         
