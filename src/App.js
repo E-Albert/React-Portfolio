@@ -1,16 +1,18 @@
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css'
-import ViewablePage from './components/ViewablePage';
+import DisplayField from './components/DisplayField';
+
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div>
+   
+      <div className="View">
+      <Sidebar />
+      <DisplayField />
       
-      
-      <ViewablePage />
+      </div>
 
-    </div>
-    
   );
 }
 
