@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+font-family: 'Titillium Web', sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -34,6 +40,10 @@ button {
     margin-top: 40px;
     height: 40px;
     width: 100%;
+    font-size: 20px;
+    background-color: #080808;
+    color: rgba(255, 255, 255, 0.883);
+    border-radius: 20px;
 }
 
 #icons {
@@ -65,6 +75,7 @@ button {
     padding: 10px;
     color: rgba(255, 255, 255, 0.883);
     background-color: #4e4e4e;
+    /* display: none; */
 }
 
 #projectCardText a {
@@ -72,7 +83,7 @@ button {
     border-radius: 25px;
     color: rgba(255, 255, 255, 0.883);
     background-color: #080808;
-    width: 50%;
+    width: 75%;
     margin-bottom: 5px;
     text-align: center;
     text-decoration: none;
