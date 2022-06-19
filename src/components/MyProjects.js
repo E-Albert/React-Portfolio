@@ -1,6 +1,3 @@
-import weatherDashboardSS from '../assets/img/weatherdashboardss.png'
-
-
 export const myProjects = [
     {
         title: 'Weather Dashboard',

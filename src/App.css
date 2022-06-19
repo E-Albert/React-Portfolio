@@ -102,3 +102,29 @@ button {
 
 }
 
+#contact {
+    background-color: #080808;
+    color: rgba(255, 255, 255, 0.883);
+    text-align: center;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+
+#contact a {
+    color: rgba(255, 255, 255, 0.883);
+}
+
+.contact-icons {
+    display: flex;
+        gap: 15px;
+        justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    height: 100vh;
+}
