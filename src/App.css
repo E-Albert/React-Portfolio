@@ -43,7 +43,8 @@ button {
     font-size: 20px;
     background-color: #080808;
     color: rgba(255, 255, 255, 0.883);
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 #icons {
