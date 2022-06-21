@@ -1,15 +1,26 @@
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css'
-import DisplayField from './components/DisplayField';
-
+// import DisplayField from './components/DisplayField';
 import Sidebar from './components/Sidebar';
+import React, { useState } from 'react';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
+
+  const [page, setPage] = useState()
+
+  const changePage = () => {
+    
+  }
+
   return (
    
       <div className="View">
-      <Sidebar />
-      <DisplayField />
+        <Sidebar />
+        <div id='pageContent'>
+        
+        </div>
       
       </div>
 

@@ -30,11 +30,11 @@ body {
     height: 40%;  
 }
 
-.display {
+/* .display {
     width: 75%;
     background-color: #4e4e4e;
     overflow: scroll;
-}
+} */
 
 button {
     margin-top: 40px;
@@ -143,4 +143,10 @@ button {
     margin: auto;
     border-radius: 25px;
 
+}
+
+#pageContent {
+    width: 75%;
+        background-color: #4e4e4e;
+        overflow: scroll;
 }
