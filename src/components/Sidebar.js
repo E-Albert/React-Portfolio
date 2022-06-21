@@ -2,15 +2,15 @@ import React from "react";
 import Photo from "../assets/img/circularheadshot.png";
 import { SocialIcon } from "react-social-icons";
 
-const Sidebar = () => {
+const Sidebar = ({thePage, handlePageChange}) => {
 
     return (
         <>
             <div className="sidebar">
                 <img src={Photo} alt="Emerson Albert"/>
-                <button>About</button>
-                <button>Projects</button>
-                <button>Contact</button>
+                <button onClick={() => handlePageChange('About')}>About</button>
+                <button onClick={() => handlePageChange('Projects')}>Projects</button>
+                <button onClick={() => handlePageChange('Contact')}>Contact</button>
                 <div id="icons">
                     <SocialIcon url="https://github.com/E-Albert" bgColor="rgba(255, 255, 255, 0.883)"></SocialIcon>
                     <SocialIcon url="https://www.linkedin.com/in/emerson-albert-402922224" bgColor="rgba(255, 255, 255, 0.883)"></SocialIcon>
