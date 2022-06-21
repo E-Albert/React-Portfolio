@@ -1,14 +1,12 @@
 import React from "react";
 
-const About = () => {
+export default function About() {
     return (
         <div>
-            <div id="about-section" className="about-container">
-                <div className="first-column">
-                    <p>About</p>
-                </div>
-                <div className="second-column">
-                    
+            <div  className="about-container">
+                
+                <div className="about-section">
+                    <h1>About</h1>
                     <p>
                         My name is Emerson Albert! Don't forget it, I might be important to
                         you one day. I was born and raised in Miami, Florida. Where you can
@@ -39,4 +37,3 @@ const About = () => {
     )
 }
 
-export default About;
