@@ -22,7 +22,6 @@ function App() {
    
       <div className="View">
       <Sidebar
-        thePage={thePage}
         handlePageChange={handlePageChange} />
         <div id='pageContent'>
           {changePage()}
