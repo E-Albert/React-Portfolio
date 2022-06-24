@@ -54,7 +54,7 @@ button {
 }
 
 #resume{
-   margin-top: 30px;
+   margin-top: 40px;
    background-color: rgba(255, 255, 255, 0.883);
    border-radius: 25px;
    width: 50%;
@@ -67,6 +67,10 @@ button {
 
 #resume a {
     text-decoration: none;
+}
+
+#resume a:link {
+    color: #080808
 }
 
 #resume a:visited {
