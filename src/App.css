@@ -157,6 +157,10 @@ button:hover {
     color: rgba(255, 255, 255, 0.883);
 }
 
+#contact a:visited {
+    color: rgba(255, 255, 255, 0.883)
+}
+
 .contact-icons {
     display: flex;
         gap: 15px;
