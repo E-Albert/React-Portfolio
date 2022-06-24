@@ -12,10 +12,8 @@ const Sidebar = ({handlePageChange}) => {
                 <button onClick={() => handlePageChange('About')}>About</button>
                 <button onClick={() => handlePageChange('Projects')}>Projects</button>
                 <button onClick={() => handlePageChange('Contact')}>Contact</button>
-                <div id="icons">
-                    <SocialIcon url="https://github.com/E-Albert" bgColor="rgba(255, 255, 255, 0.883)"></SocialIcon>
-                    <SocialIcon url="https://www.linkedin.com/in/emerson-albert-402922224" bgColor="rgba(255, 255, 255, 0.883)"></SocialIcon>
-                    <SocialIcon url="https://www.discordapp.com/users/ThisMightBeEmerson#7415" bgColor="rgba(255, 255, 255, 0.883)"></SocialIcon>
+                <div id="resume">
+                    <a href="https://drive.google.com/file/d/1jdaGRSOWXhsL1DGlcmgak4xat5XKRETh/view?usp=sharing">Resume</a>
                 </div>
             </div>
         

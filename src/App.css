@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    overflow: scroll;
 }
 
 .sidebar img {
@@ -52,11 +53,24 @@ button {
     border-bottom-left-radius: 20px;
 }
 
-#icons {
+#resume{
+   margin-top: 30px;
+   background-color: rgba(255, 255, 255, 0.883);
+   border-radius: 25px;
+   width: 50%;
+   height: 55px;
    display: flex;
-   gap: 15px;
-   position: absolute;
-   bottom: 5px;
+   justify-content: center;
+   align-items: center;
+   font-size: 150%; 
+}
+
+#resume a {
+    text-decoration: none;
+}
+
+#resume a:visited {
+    color: #080808
 }
 
 /* PROJECTS STYLING */

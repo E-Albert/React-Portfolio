@@ -9,8 +9,7 @@ export default function Contact() {
                     <h1>Contact</h1>
                     <p>Thank you for taking the time to go through my portfolio. If you like anything that you saw tell me about it.
                         I hope my work speaks for itself to prove that I can put in the hard work and adapt to any challenge and
-                        technology presented to me. <span><a href="https://drive.google.com/file/d/1jdaGRSOWXhsL1DGlcmgak4xat5XKRETh/view?usp=sharing">Click here</a> </span>
-                        to view my resume and please feel free to reach out to me at
+                        technology presented to me. Feel free to reach out to me at
                          <span> <a href="mailto: thismustbeemerson@gmail.com">thismustbeemerson@gmail.com</a> </span>
                          or at any of the links below.
                     </p>
