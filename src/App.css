@@ -53,6 +53,10 @@ button {
     border-bottom-left-radius: 20px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #resume{
    margin-top: 40px;
    background-color: rgba(255, 255, 255, 0.883);
@@ -117,6 +121,10 @@ button {
     margin-bottom: 5px;
     text-align: center;
     text-decoration: none;
+}
+
+#projectCardText a:visited {
+    color: rgba(255, 255, 255, 0.883)
 }
 
 #projectField {
