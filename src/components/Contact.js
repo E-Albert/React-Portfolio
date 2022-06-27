@@ -10,7 +10,7 @@ export default function Contact() {
                     <p>Thank you for taking the time to go through my portfolio. If you like anything that you saw tell me about it.
                         I hope my work speaks for itself to prove that I can put in the hard work and adapt to any challenge and
                         technology presented to me. Feel free to reach out to me at
-                         <span> <a href="mailto: thismustbeemerson@gmail.com">thismustbeemerson@gmail.com</a> </span>
+                         <span> <a href="mailto: emersonalbert305@gmail.com">emersonalbert305@gmail@gmail.com</a> </span>
                          or at any of the links below.
                     </p>
 
