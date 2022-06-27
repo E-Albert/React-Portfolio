@@ -1,6 +1,5 @@
 import React from "react";
 import Photo from "../assets/img/circularheadshot.png";
-import { SocialIcon } from "react-social-icons";
 
 const Sidebar = ({handlePageChange}) => {
 
