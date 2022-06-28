@@ -83,6 +83,11 @@ button:hover {
 
 /* PROJECTS STYLING */
 
+#projectLogo {
+ text-align: center;
+ color: rgba(255, 255, 255, 0.883); 
+}
+
 #projectCard {
     width: 300px;
     height: 400px;
