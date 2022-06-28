@@ -40,6 +40,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     color: rgba(255, 255, 255, 0.883);
+    text-align: center;
 }
 
 button {
@@ -61,7 +62,7 @@ button:hover {
    margin-top: 40px;
    background-color: rgba(255, 255, 255, 0.883);
    border-radius: 25px;
-   width: 50%;
+   width: 75%;
    height: 55px;
    display: flex;
    justify-content: center;
@@ -105,6 +106,7 @@ button:hover {
 }
 
 #projectCardText {
+    width: 60%;
     display: flex;
         flex-direction: column;
         align-items: center;
@@ -115,6 +117,10 @@ button:hover {
     color: rgba(255, 255, 255, 0.883);
     background-color: #4e4e4e;
     display: none
+}
+
+#projectCardText h2 {
+    text-align: center;
 }
 
 #projectCardText a {
@@ -191,4 +197,23 @@ button:hover {
     width: 60%;
     margin: auto;
     border-radius: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar h1 {
+        font-size: 20px
+    }
+
+    #resume {
+        font-size: 17px
+    }
+
+    #projectCard {
+        width: 230px;
+        height: 350px;
+    }
+
+    #projectCard h2 {
+        font-size: 20px
+    }
 }
