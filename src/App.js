@@ -1,5 +1,4 @@
 import './App.css';
-// import DisplayField from './components/DisplayField';
 import Sidebar from './components/Sidebar';
 import React, { useState } from 'react';
 import About from './components/About';
@@ -21,12 +20,11 @@ function App() {
   return (
    
       <div className="View">
-      <Sidebar
+        <Sidebar
         handlePageChange={handlePageChange} />
         <div id='pageContent'>
           {changePage()}
         </div>
-      
       </div>
 
   );
