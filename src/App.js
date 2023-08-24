@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
 
-  const [thePage, setPage] = useState('About')
+  const [thePage, setPage] = useState('Projects')
 
   const changePage = () => {
     if (thePage === 'About') return <About />;
