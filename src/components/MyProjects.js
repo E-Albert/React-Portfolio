@@ -1,5 +1,13 @@
 export const myProjects = [
   {
+    title: "Cartoon Matchup",
+    githubLink: "https://github.com/E-Albert/Cartoon-Matchup",
+    website: "https://e-albert.github.io/Cartoon-Matchup/",
+    description:
+      "Cartoon Matchup is a web-based application that allows users to play the classic card matching game with a whimsical cartoon twist. It's designed to be enjoyable for players of all ages, providing a delightful gaming experience.",
+    img: "https://i.imgur.com/45iUgP6.png",
+  },
+  {
     title: "Poke-Race",
     githubLink: "https://github.com/E-Albert/Poke-Race",
     website: "https://e-albert.github.io/Poke-Race/",
@@ -35,13 +43,5 @@ export const myProjects = [
     website: "https://e-albert.github.io/NBA-code-quiz/",
     description: "A quiz about the NBA",
     img: "https://i.imgur.com/xRCrKMF.png",
-  },
-  {
-    title: "Text Editor",
-    githubLink: "https://github.com/E-Albert/text-editor",
-    website: "https://sleepy-stream-23737.herokuapp.com/",
-    description:
-      "A text editor that you can write anything you want and even take it offline!",
-    img: "https://i.imgur.com/cxokLqs.png",
   },
 ];

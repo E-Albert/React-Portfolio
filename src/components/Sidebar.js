@@ -12,7 +12,7 @@ const Sidebar = ({handlePageChange}) => {
           <button onClick={() => handlePageChange("Projects")}>Projects</button>
           <button onClick={() => handlePageChange("Contact")}>Contact</button>
           <div id="resume">
-            <a href="https://drive.google.com/file/d/1McMAS6GLy6_G37gA61USyWNR51WRB-tP/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1wWV3Wsy4jBI8JOr5EdltQyQ6zUCmDC7S/view?usp=sharing">
               Resume
             </a>
           </div>
